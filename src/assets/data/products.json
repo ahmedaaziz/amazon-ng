@@ -1,0 +1,57 @@
+[
+  {
+    "id":1,
+    "title":"Xbox One X 1TB",
+    "desc":"Microsoft XBOX One X 1TB console with wireless controller",
+    "price":450.00,
+    "image":"https://m.media-amazon.com/images/I/61tqhHLo8mL._AC_UY218_.jpg",
+    "rating":4,
+    "url":"https://www.amazon.com/Xbox-One-1TB-Console-Fallout-Bundle/dp/B07GQ8M9M5/ref=sr_1_1?dchild=1&keywords=xbox+one+1tb&qid=1631464904&sr=8-1"
+
+  },
+  {
+    "id":2,
+    "title":"SONY PlayStation 4 Slim 1TB Console",
+    "desc":" Light & Slim PS4 System, 1TB Hard Drive, All the Greatest Games, TV, Music & More",
+    "price":499.00,
+    "image":"https://m.media-amazon.com/images/I/715RBdgZtHL._AC_UY218_.jpg",
+    "rating":4.8,
+    "url":"https://www.amazon.com/Xbox-One-1TB-Console-Fallout-Bundle/dp/B07GQ8M9M5/ref=sr_1_1?dchild=1&keywords=xbox+one+1tb&qid=1631464904&sr=8-1"
+
+
+  },
+  {
+    "id":3,
+    "title":"Pro Angular 9: Build Powerful and Dynamic Web Apps",
+    "desc":"Pro Angular 9: Build Powerful and Dynamic Web Apps 4th ed. Edition",
+    "price":39,
+    "image":"https://images-na.ssl-images-amazon.com/images/I/51wYj4DoBgL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "rating":4,
+    "url":"https://www.amazon.com/Xbox-One-1TB-Console-Fallout-Bundle/dp/B07GQ8M9M5/ref=sr_1_1?dchild=1&keywords=xbox+one+1tb&qid=1631464904&sr=8-1"
+
+
+  },
+  {
+    "id":4,
+    "title":"JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language",
+    "desc":"JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language 7th Edition",
+    "price":25.00,
+    "image":"https://m.media-amazon.com/images/I/91hUer84PpL._AC_UY218_.jpg",
+    "rating":4,
+    "url":"https://www.amazon.com/JavaScript-Definitive-Most-Used-Programming-Language/dp/1491952024/ref=sr_1_1?crid=3A0VZY1MWKU4R&dchild=1&keywords=javascript+the+definitive+guide&qid=1631464976&sprefix=JavaScript%3A+The+Definitive+Guide%2Caps%2C304&sr=8-1"
+
+
+  },
+  {
+    "id":5,
+    "title":"Lavazza Super Crema Whole Bean Coffee Blend, Medium Espresso Roast, 2.2 Pound (Pack of 1)",
+    "desc":"Microsoft XBOX One X 1TB console with wireless controller",
+    "price":44.00,
+    "image":"https://m.media-amazon.com/images/I/61fpw9inWTL._AC_UL320_.jpg",
+    "rating":4,
+    "url":"https://www.amazon.com/Lavazza-Coffee-Medium-Espresso-2-2-Pound/dp/B000SDKDM4/ref=sr_1_1?crid=3SKUOSEJN5AHP&dchild=1&keywords=lavazza+super+crema&qid=1631464954&sprefix=lavazza+super%2Caps%2C314&sr=8-1"
+
+
+  }
+
+]

@@ -1,0 +1,28 @@
+<div class="login">
+  <img
+  routerLink='/'
+  class="login_logo"
+  src="https://logos-world.net/wp-content/uploads/2020/04/Amazon-Logo.png" alt="">
+  <div class="login_container">
+    <div class="login_form">
+      <h1>Sign-in</h1>
+      <form action="" [formGroup]='LoginForm'>
+        <h5>Email</h5>
+        <input type="email" name="" id="" formControlName = 'email'>
+
+        <h5>Password</h5>
+        <input type="password" name="" id="" formControlName = 'password'>
+
+        <button class="login_signIn_button" (click)="signIn()">Sign In </button>
+        <p class="login_terms">
+          By continuing, you agree to Amazon's <a href="#"> Conditions of Use</a>  & <a href="#">Privacy Notice</a>
+        </p>
+        <hr>
+        <p class="login_terms">
+          If you have not registered yet, click on the button below
+        </p>
+        <button class="login_create_button" (click)="createAccount()">Create Amazon account</button>
+      </form>
+    </div>
+  </div>
+</div>

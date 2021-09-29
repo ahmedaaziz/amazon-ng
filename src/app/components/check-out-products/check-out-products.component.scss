@@ -1,0 +1,85 @@
+.checkout_products {
+  .price {
+    text-align: right;
+  }
+  .checkout_product{
+    display: flex;
+    border-top: solid 1px rgb(219,218,218);
+    margin: .9375rem;
+    &_img{
+      object-fit: contain;
+      width: 11.875rem;
+      max-height: 200px;
+      margin: .9375rem;
+
+    }
+    &_info{
+      padding-top: 10px;
+      padding-left: 20px;
+      width: 100%;
+      img {
+        height: 1.25rem;
+        object-fit: contain;
+      }
+    }
+    &_title{
+      color: #0066c0;
+      font-size: 17px !important;
+      font-weight: 700  !important;
+      line-height: 1.255 !important;
+
+    }
+    &_in_stock{
+      color: #0066c0;
+      font-size: 12px !important;
+      line-height: 1.5;
+    }
+    &_gift {
+        display: flex;
+        flex-direction: row;
+        input{
+          margin-right: 5px;
+          margin-left: 5px;
+        }
+      }
+      &_more {
+        text-decoration: none;
+        margin-left: 5px;
+        color: #0066c0;
+      }
+
+
+  }
+  .checkout_options{
+    display: flex;
+
+    a {
+      text-decoration: none;
+      margin: 8px;
+      color: #0066c0;
+      height: 20px;
+      font-size: 12px !important;
+      padding-left: 8px;
+      border-left: solid lightgray 1px;
+      cursor: pointer;
+
+    }
+
+    .checkout_dropdown{}
+  }
+  &_price{
+    margin-top: 12px;
+    text-align: right;
+    font-size: 17px!important;
+    line-height: 1.255 !important;
+
+  }
+  &_subtotal {
+    font-size: 17px!important;
+    line-height: 1.255;
+
+  }
+  mat-form-field {
+    background: gray;
+  }
+}

@@ -1,0 +1,19 @@
+.footer {
+  height: 48px;
+  background-image: none;
+  background-color: #232f3e;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  p {
+    align-self: center;
+    margin: 0;
+  }
+
+}

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "eg-b224f": {
+      "hosting": {
+        "amazon-ng": [
+          "eg-b224f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "eg-b224f"
+  }
+}

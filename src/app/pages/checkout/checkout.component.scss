@@ -1,0 +1,16 @@
+.checkout {
+  display: flex;
+  background: none;
+  width: 100%;
+
+  &_left{
+    flex: 1;
+  }
+  &_empty {
+    margin: 20px 20px 400px 20px;
+  }
+  &_right{
+    justify-content: flex-end;
+    margin-left: 10px;
+  }
+}

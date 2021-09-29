@@ -1,0 +1,44 @@
+.products {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  .product {
+     mat-card {
+       display: flex;
+       flex-direction: column;
+       min-height: 21.875rem;
+       width: 20rem;
+       margin: 1.25rem;
+       align-items: center;
+      img {
+        object-fit: contain;
+        height: 12.5rem;
+      }
+       button {
+        margin: 20px;
+        padding: 5px;
+        background-color: #f0c14b;
+        border: 1px solid;
+        border-color: #a88134 #9c7e31 #846a29;
+        font-weight: 500;
+        cursor: pointer;
+      }
+    }
+    &_img {
+
+    }
+    &_name{
+      color: #000;
+      text-decoration: none;
+
+      h2 {
+        font-size: 1rem;
+        font-weight: 400;
+        height: 70px;
+      }
+    }
+    &_desc{
+
+    }
+  }
+}

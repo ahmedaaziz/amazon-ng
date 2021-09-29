@@ -1,0 +1,122 @@
+.header {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  &_top{
+    height: 3.75rem;
+    background: #0f1111;
+    font-size: .875rem;
+    display: flex;
+    padding-right: .5rem;
+    padding-bottom: .5rem;
+
+    color: #ffff;
+    padding-right: 8px;
+    .header_menu {
+      width: 100%;
+      display: flex;
+      padding: .625rem .5rem .5rem .5rem;
+      flex: 1 1 auto;
+      // justify-content: space-between;
+      > div {
+        margin: 0.5rem;
+      }
+      &_logo{
+        object-fit: contain;
+        width: 100px;
+        margin: 12px 20px 0px 2px;
+      }
+      &_delivery_yourCountry {
+
+        a {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          color: #fff;
+          text-decoration: none;
+          &_top_item {
+            font-size-adjust: 10px;
+            color: lightgray;
+          }
+          &_bottom_item {
+            font-weight: 800;
+            font-size: .8125rem;
+          }
+
+        }
+
+      }
+      &_icon {
+        > mat-icon {
+          font-size: 1.875rem;
+          align-items: center;
+
+        }
+      }
+      &_searchbar{
+        display: flex;
+        margin-top: .5rem;
+        height: 2.5rem;
+        justify-content: center;
+        flex: 1 1 auto;
+        .header_menu_input{
+          height: 1.25rem;
+          padding: .625rem;
+          border: none;
+          width: 100%;
+        }
+        &_icon{
+          background: #febd69;
+          color: #000;
+          height: 2.5rem;
+          width: 2.5rem;
+          display: flex;
+          justify-content: space-around;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 0px 5px 5px 0px;
+        &:hover{
+          padding:2px;
+          margin-top: -1px;
+        }
+        }
+      }
+      &_signIn {
+        display: flex;
+        flex-direction: column;
+      }
+      &_top_item {
+        font-size-adjust: 10px;
+        color: lightgray;
+      }
+      &_bottom_item {
+        font-weight: 800;
+        font-size: .8125rem;
+      }
+      .header_menu_cart{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 8px;
+        height: 50px;
+        justify-content: space-around;
+        .header_cart_number {
+          color: #febd69;
+          font-size: 1.5625rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  &_bottom{
+    height: 3.0625rem;
+    background-image: none;
+    background: #232f3e;
+    padding-left: 8px;
+    font-size: .75rem;
+    &_location_text {
+      color: white;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
